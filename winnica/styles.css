@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.ab {
+  float: left;
+  text-align: left;
+  width: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav {
+  background-color: #444;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(13, 114, 13);
+}
+
+.gora {
+  width: 100%;
+  height: 680px;
+  background-image: url(./zdj/ob.jpeg);
+  color: #f4f4f4;
+  float: left;
+  text-align: center;
+}
+
+.goratext {
+  padding-top: 200px;
+}
+
+.tekstd {
+  padding-left: 25%;
+  padding-right: 25%;
+  height: auto;
+  width: auto;
+  float: left;
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.srodek {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  gap: 20px; /* Add some space between items */
+}
+
+.tek1,
+.tek2,
+.tek3 {
+  margin: 10px;
+  flex: 1; /* This will allow them to grow and take up equal space */
+}
+
+.tek1 img,
+.tek2 img,
+.tek3 img {
+  display: block;
+  margin: 0 auto;
+  width: 60%; /* Ensure images take up the full width of their container */
+}
+
+footer {
+  justify-content: center;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  bottom: 0;
+  height: auto;
+  float: left;
+}
+
+.footend {
+  justify-content: center;
+  color: white;
+  width: 100%;
+  letter-spacing: 20px;
+  margin-bottom: 0;
+  float: left;
+}
